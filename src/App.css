@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.container{
+  background-color: #1E1E1E;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-front {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ryoshi {
+  align-self: center;
+}
+
+.father {
+  margin-bottom: 40px;
+  font-size: 70px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
+
+.father-subheading {
+  margin-bottom: 40px;
+  color: rgb(88, 88, 88);
+  font-size: 13px;
+}
+
+.ryoshi-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.buy-on-ryoshiswap {
+  color: #1E1E1E;
+  padding: 10px;
+  background: #DEBA5E;
+  border: 1px solid #DEBA5E;
+  border-radius: 5px;
+}
+
+.explor-ryoshi {
+  color: #DEBA5E;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #DEBA5E;
+  border-radius: 5px;
+}
+
+.explor-ryoshi:hover{
+  background-color: #DEBA5E;
+  color:#1E1E1E ;
+}
+
+.icon-links {
+  color:rgb(88, 88, 88);
+  padding-top: 30px;
+}
+
+.icon {
+  display: flex;
+  gap: 14px;
+}
+
+.soicalicon {
+  height: 32px;
+  width: 32px;
+}
+
+.goldpaper-link {
+  color: #DEBA5E;
+}
+
+.subtop {
+  display: flex;
+  color: aliceblue;
+}
+
+.pricing {
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(88, 88, 88);
+}
+
+.holders {
+  width: 300px;
 }
